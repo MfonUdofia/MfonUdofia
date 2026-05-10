@@ -1,0 +1,65 @@
+en: &DEFAULT_EN
+  header:
+    title: "Hi, I'm Mfon Udofia"
+    text: "Creative storyteller crafting captivating, empathic stories with digital tools."
+    button: See My Work
+    buttonlink: "#portfolio"
+
+  portfolio:
+    title: "My Work"
+    text: "Visual stories, edits, motion pieces, and creative experiments shaped with care, rhythm, and emotion."
+    section: portfolio
+    closebutton: "Close Project"
+
+  pitch:
+    title: "Pitch"
+    text: "I help people, brands, and ideas become stories that feel human, memorable, and alive."
+    section: pitch
+    body: "Using tools like Adobe After Effects, Adobe Premiere Pro, and DaVinci Resolve, I shape raw ideas and footage into visual stories with pace, feeling, and purpose. My work is built around empathy: understanding the message, finding the emotional thread, and crafting a final piece that connects with people."
+    button: "Let's Tell Yours"
+    buttonlink: "#contact"
+
+  blog:
+    title: "Blog"
+    text: "Thoughts on storytelling, editing, creative process, and digital craft."
+    section: blog
+    empty: "No posts yet. New reflections are coming soon."
+
+  contact:
+    title: "Let's Connect"
+    text: "Have a story, project, or idea you want to bring to life? Reach out."
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message"
+    message-validation: "Please enter a message."
+    subject: "Storytelling Project Inquiry"
+    submit: "Send Message"
+
+  footer:
+    tagline: "Contact me. Let me tell your story."
+    legal: "Privacy Policy"
+    social:
+      - url: https://github.com/MfonUdofia
+        icon: "fab fa-github"
+      - url: https://linkedin.com/in/mfonudofia
+        icon: "fab fa-linkedin-in"
+      - url: https://twitter.com/mfon0bong
+        icon: "fab fa-twitter"
+      - url: "#"
+        icon: "fab fa-instagram"
+      - url: "#"
+        icon: "custom-tiktok"
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

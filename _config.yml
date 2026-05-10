@@ -1,0 +1,26 @@
+theme: jekyll-agency
+
+url    : "https://mfonudofia.github.io"
+baseurl: ""
+
+title      : Mfon Udofia
+email      : mfonobongudofia81@gmail.com
+description: "Personal website, portfolio, and blog of Mfon Udofia, a creative storyteller using digital tools to craft captivating and empathic stories."
+author     : Mfon Udofia
+
+locale: "en-US" # See available languages in _data/sitetext.yml
+
+analytics:
+  google: #Google Analytics tracking code here
+
+collections:
+  portfolio:
+
+markdown: kramdown
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
+
+plugins:
+  - jekyll-feed

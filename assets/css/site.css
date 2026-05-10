@@ -1,0 +1,93 @@
+:root {
+  --mfon-button-red: #800e13;
+  --mfon-text-red: #bf141d;
+}
+
+/* Header brand text: Mfon Udofia */
+#mainNav .navbar-brand {
+  color: var(--mfon-text-red) !important;
+}
+
+/* Navbar links stay white until hover/active section state. */
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:focus {
+  color: var(--mfon-text-red) !important;
+}
+
+/* Hero text stays readable over the image. */
+.masthead .intro-lead-in,
+.masthead .intro-heading {
+  color: #f8f9fa !important;
+}
+
+/* Main page body section headings use the requested red. */
+section h2.section-heading,
+.page-section h2.section-heading {
+  color: var(--mfon-text-red) !important;
+}
+
+/* Portfolio item titles stay white. */
+.portfolio-caption h4 {
+  color: #fff !important;
+}
+
+/* Blog post titles stay white. */
+#blog article h3 a,
+#blog article h3 a:hover,
+#blog article h3 a:focus,
+#pagecontainer .list-unstyled h3 a,
+#pagecontainer .list-unstyled h3 a:hover,
+#pagecontainer .list-unstyled h3 a:focus,
+#pagecontainer ul.list-unstyled li h3 a,
+#pagecontainer ul.list-unstyled li h3 a:hover,
+#pagecontainer ul.list-unstyled li h3 a:focus {
+  color: #fff !important;
+}
+
+/* Keep buttons on the existing darker red; this was not changed. */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: var(--mfon-button-red) !important;
+  border-color: var(--mfon-button-red) !important;
+  color: #fff !important;
+}
+
+.portfolio-hover {
+  background-color: rgba(128, 14, 19, 0.9) !important;
+}
+
+footer.footer span.copyright {
+  font-family: "Kaushan Script", cursive !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  color: var(--mfon-text-red) !important;
+}
+
+.footer .social-buttons li a {
+  width: 34px;
+  height: 34px;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.footer .social-buttons li a svg {
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+  vertical-align: -2px;
+}
+
+#contactForm textarea::placeholder,
+#contactForm input::placeholder {
+  color: #ced4da !important;
+  opacity: 1 !important;
+}
