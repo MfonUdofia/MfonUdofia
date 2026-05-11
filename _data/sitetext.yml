@@ -1,7 +1,7 @@
 en: &DEFAULT_EN
   header:
     title: "Hi, I'm Mfon Udofia"
-    text: "Creative storyteller crafting captivating, empathic stories with digital tools."
+    text: "A creative storyteller with experience in using digital tools to scale brands."
     button: See My Work
     buttonlink: "#portfolio"
 
@@ -41,7 +41,7 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    tagline: "Contact me. Let me tell your story."
+    tagline: "Let me tell your story."
     legal: "Privacy Policy"
     social:
       - url: https://github.com/MfonUdofia

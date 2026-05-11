@@ -19,11 +19,22 @@
   color: var(--mfon-text-red) !important;
 }
 
+/* Hero section size */
+header.masthead .intro-text {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
 /* Hero text stays readable over the image. */
-.masthead .intro-lead-in,
-.masthead .intro-heading {
+.masthead .intro-lead-in {
+  font-size: 3rem !important;
   color: #f8f9fa !important;
 }
+
+.masthead .intro-heading {
+  font-size: 4rem !important;
+  color: #f8f9fa !important;
+}
+
 
 /* Main page body section headings use the requested red. */
 section h2.section-heading,
@@ -46,7 +57,8 @@ section h2.section-heading,
 #pagecontainer ul.list-unstyled li h3 a,
 #pagecontainer ul.list-unstyled li h3 a:hover,
 #pagecontainer ul.list-unstyled li h3 a:focus {
-  color: #fff !important;
+    color: var(--mfon-text-black) !important;
+
 }
 
 /* Keep buttons on the existing darker red; this was not changed. */
@@ -79,12 +91,23 @@ footer.footer span.copyright {
   line-height: 34px;
 }
 
-.footer .social-buttons li a svg {
+.footer .social-buttons li a.custom-tiktok-link {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529 !important;
+  color: #fff !important;
+  line-height: 1 !important;
+}
+
+.footer .social-buttons li a.custom-tiktok-link .custom-tiktok-icon {
+  display: block;
   width: 15px;
   height: 15px;
-  fill: #fff;
-  vertical-align: -2px;
+  fill: currentColor;
+  flex: 0 0 auto;
 }
+
 
 #contactForm textarea::placeholder,
 #contactForm input::placeholder {
