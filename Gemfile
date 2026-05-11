@@ -2,6 +2,9 @@
 source "https://rubygems.org"
 
 gem "jekyll-agency", "~> 1.2"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
+
 
 gem "base64"
 gem "webrick", "~> 1.8"

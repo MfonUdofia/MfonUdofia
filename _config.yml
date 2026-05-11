@@ -1,4 +1,4 @@
-theme: jekyll-agency-theme
+remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://mfonudofia.github.io"
 baseurl: ""
