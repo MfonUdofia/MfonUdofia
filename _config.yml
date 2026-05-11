@@ -1,7 +1,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://mfonudofia.github.io"
-baseurl: ""
+baseurl: "/mfonudofia"
 
 title      : Mfon Udofia
 email      : mfonobongudofia81@gmail.com
