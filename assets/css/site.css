@@ -34,7 +34,56 @@ header.masthead .intro-text {
   font-size: 4rem !important;
   color: #f8f9fa !important;
 }
+#portfolio {
+  position: relative;
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
 
+#portfolio::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/grid.png");
+  background-size: 80px 80px;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#portfolio .container {
+  position: relative;
+  z-index: 1;
+}
+#blog {
+  position: relative;
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+#blog::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/grid.png");
+  background-size: 80px 80px;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#blog .container {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 60px 70px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 0;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
 
 /* Main page body section headings use the requested red. */
 section h2.section-heading,
@@ -58,6 +107,8 @@ section h2.section-heading,
 #pagecontainer ul.list-unstyled li h3 a:hover,
 #pagecontainer ul.list-unstyled li h3 a:focus {
     color: var(--mfon-text-black) !important;
+    font-size: 1.2rem !important;
+
 
 }
 
